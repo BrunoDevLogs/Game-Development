@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "1",
+  "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_0",
@@ -41,27 +41,11 @@
         "closeDelayFrames": 30
       },
       "id": "ac470b79-e9a3-43e0-997a-18488bc95e88"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
-      },
-      "id": "822992d3-e27f-44c7-80a2-dcf590be2913"
     }
   ],
   "startScript": [],
   "updateScript": [],
-  "hit1Script": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "1e33079d-d7bd-49de-9e0a-852c4ac29cb3"
-    }
-  ],
+  "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
